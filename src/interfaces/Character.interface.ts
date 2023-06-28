@@ -25,3 +25,8 @@ export interface Character {
   height: string
   vehicles: string[]
 }
+
+export interface CharacterList {
+  people: Character[],
+  count: number,
+}
